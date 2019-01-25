@@ -1,4 +1,4 @@
-manifest = "dae9cf7faa3a872e81ddfbdbe224719e387171ee50adf8b3d8abf0980b2682e4"
+manifest = "8b983235525a67f7b6552cd934a6b91ddc7d85978bed07b93112e64acaafaaac"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/check"
