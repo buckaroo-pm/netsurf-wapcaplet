@@ -1,0 +1,18 @@
+load('//:buckaroo_macros.bzl', 'buckaroo_deps_from_package')
+
+check = \
+  buckaroo_deps_from_package('github.com/buckaroo-pm/check')
+
+cxx_binary(
+  name = 'test',
+  header_namespace = '',
+  headers = glob([
+    '*.h',
+  ]),
+  srcs = glob([
+    '*.c',
+  ]),
+  deps = check + [
+    '//:wapcaplet',
+  ],
+)

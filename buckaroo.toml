@@ -1,0 +1,6 @@
+targets = [ "//:wapcaplet" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/check"
+version = "branch=master"
+private = true

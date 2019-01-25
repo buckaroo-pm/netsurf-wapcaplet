@@ -1,0 +1,9 @@
+manifest = "dae9cf7faa3a872e81ddfbdbe224719e387171ee50adf8b3d8abf0980b2682e4"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/check"
+target = "//:check"
+
+[lock."github.com/buckaroo-pm/check"]
+versions = [ "branch=master" ]
+revision = "53e84bd2ed5d98cf98cb91e781a2983d7d01425d"
